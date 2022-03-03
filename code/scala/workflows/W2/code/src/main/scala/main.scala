@@ -11,6 +11,7 @@ import graph._
 object Main {
 
   def apply(spark: SparkSession): Unit = {
+    Script_2(spark)
     Script_1(spark)
     Script_0(spark)
   }
